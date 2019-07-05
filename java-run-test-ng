@@ -1,0 +1,1 @@
+ java  -cp "./target/*" -Ddb_name=$DB_NAME -Ddb_user=$DB_NAME -Ddb_pass=$DB_PASS org.testng.TestNG  test_suite/smoke.xml
